@@ -4,7 +4,7 @@
 
 ### Старт проекта:
 1. Скачайте проект и распакуйте проект на свой компьютер
-   - Зеленая кнопка Code -> Download ZIP
+   - [Скачать](https://github.com/EreminD/skypro-qaauto-hw1/archive/refs/heads/master.zip)
 2. В терминале выполните команду `npm install` для установки зависимостей
 3. В терминале выполните команду `npm run test` для запуска тестов
 
