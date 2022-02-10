@@ -1,0 +1,15 @@
+{
+    "name": "skypro-hw-1",
+    "version": "1.0.0",
+    "description": "Домашнее задание по курсу Автоматизация тестирования (1)",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --colors --expand",
+        "test:watch": "jest --watchAll"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^27.5.1"
+    }
+}
