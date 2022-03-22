@@ -1,21 +1,28 @@
+function sum(a, b) {
+    return a + b
+}
 
-    // этот метод всегда возвращает ноль. А должен возвращать сумму a и b
-    function sum(a, b) {
-        return 0
-    }
+function sub(a, b) {
+    return a - b
+}
 
-    // этот метод всегда возвращает ноль. А должен возвращать разницу a и b
-    function sub(a, b) {
-        return 0
-    }
+function multiply(x, y) {
+    return x * y
+}
 
-    /*
-    По аналогии, необходимо реализовать методы:
-        multiply(x, y) - умножение
-        div(x, y) - деление
+function div(x, y) {
+    return x / y
+}
 
-        percent(num, share) - расчет процента, где num - целое число, а share - искомая доля.
-    */
+function percent(num, share) {
+    return num / 100 * share
+}
 
-// через запятую, добавляйте имена функций, когда их напишите: multiply, div, percent
-module.exports = {sum, sub}
+// не забудьте дописать сюда новые методы avg, sumAll, min, max, count`
+module.exports = {
+    sum,
+    sub,
+    multiply,
+    div,
+    percent
+}
