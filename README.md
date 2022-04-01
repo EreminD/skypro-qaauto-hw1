@@ -4,7 +4,7 @@
 
 ### Старт проекта:
 1. Скачайте проект и распакуйте проект на свой компьютер
-   - [Скачать](https://github.com/EreminD/skypro-qaauto-hw1/archive/refs/heads/hw2.zip)
+   - [Скачать](https://github.com/EreminD/skypro-qaauto-hw1/archive/refs/heads/hw3.zip)
 2. В терминале выполните команду `npm install` для установки зависимостей
 
 ### Задание: 
