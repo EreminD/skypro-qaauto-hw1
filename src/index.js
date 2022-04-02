@@ -1,4 +1,4 @@
-import { Builder, By, Capabilities} from 'selenium-webdriver'
+const {Capabilities, By, Builder} = require('selenium-webdriver')
 
 async function todoApp() {
 
