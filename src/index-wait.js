@@ -5,7 +5,6 @@ async function todoApp() {
 
     const browserName = Capabilities.chrome()
     let driver = await new Builder().withCapabilities(browserName).build();
-
     await driver.manage().setTimeouts({implicit: 4000})
     await driver.get('https://sky-todo-list.herokuapp.com')
 
@@ -16,6 +15,7 @@ async function todoApp() {
     const rows = await driver.findElements(By.css('td'))
 
     const firstRow = rows[0]
+    
     await firstRow.click()
 
     const lastRow = rows[rows.length - 1]
