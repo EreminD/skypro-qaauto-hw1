@@ -7,24 +7,23 @@ async function todoApp() {
 
 
     await driver.get('https://sky-todo-list.herokuapp.com')
-    await driver.findElement(By.css('input.input')).sendKeys(new Date().toISOString())
+    await driver.findElement(By.css('input.input')).sendKeys("очень длинная строка для теста")
     await driver.findElement(By.css('button[type=submit]')).click()
 
-    // про ожидания мы еще не говорили
-    setTimeout(async () => {
+
+    setTimeout(async function() {
         const rows = await driver.findElements(By.css('td'))
         const firstRow = rows[0]
         firstRow.click()
-
-    }, 3000)
+    }, 30000)
     
-    setTimeout(async () => {
+    setTimeout(async function() {
         const rows = await driver.findElements(By.css('td'))
         const lastRow = rows[rows.length-1]
         await lastRow.findElement(By.css('svg[data-icon=trash]')).click()
-    }, 5000)
+    }, 40000)
    
-    setTimeout(() => driver.quit(), 60000)
+    setTimeout(() => driver.quit(), 60*1000)
 }
 
 todoApp()
