@@ -4,13 +4,13 @@
     "description": "Домашнее задание по курсу Автоматизация тестирования (1)",
     "main": "index.js",
     "scripts": {
-        "test": "mocha --timeout 60000",
-        "test:watch": "jest --watchAll"
+        "test": "mocha --timeout 60000 test"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
         "@faker-js/faker": "^6.1.2",
+        "chai": "^4.3.6",
         "chromedriver": "^98.0.1",
         "mocha": "^9.2.2",
         "selenium-webdriver": "^4.1.1"
