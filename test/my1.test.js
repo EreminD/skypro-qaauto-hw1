@@ -5,11 +5,11 @@ describe("First tests", function (){
         console.log("Before Hook");
     })
 
-    this.beforeEach('before each hook', () => {
+    beforeEach('before each hook', () => {
         console.log("Before Each Hook");
     })
 
-    this.afterEach('after each hook', () => {
+    afterEach('after each hook', () => {
         console.log("After Each Hook");
     })
 
